@@ -9,6 +9,9 @@
     "bootstrap": "lerna clean --yes && lerna bootstrap --force-local",
     "build": "lerna run build --stream --scope=@vault-developer/ui-button"
   },
+  "dependencies": {
+    "@tsconfig/create-react-app": "1.0.2"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

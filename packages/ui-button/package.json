@@ -1,17 +1,20 @@
 {
   "name": "@vault-developer/ui-button",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/ui-button.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
+  "dependencies": {
+    "react": "17.0.2"
+  },
   "devDependencies": {
-    "react": "17.0.2",
-    "typescript": "4.5.2"
+    "typescript": "4.5.2",
+    "@types/react": "16.14.0"
   },
   "peerDependencies": {
-    "react": "16.x",
-    "react-dom": "16.x"
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   }
 }
