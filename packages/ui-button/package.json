@@ -1,0 +1,12 @@
+{
+  "name": "@vault-developer/ui-button",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  }
+}

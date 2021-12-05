@@ -2,9 +2,11 @@
   "name": "ui-library-monorepo-poc",
   "version": "1.0.0",
   "description": "",
+  "private": true,
+  "workspaces": ["packages/**"],
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist --force-local"
+    "bootstrap": "lerna clean --yes && lerna bootstrap --force-local"
   },
   "keywords": [],
   "author": "",
