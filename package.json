@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna clean --yes && lerna bootstrap --force-local",
-    "build": "lerna run build --stream --scope=@vault-developer/ui-button"
+    "build": "lerna run build --stream"
   },
   "keywords": [],
   "author": "",

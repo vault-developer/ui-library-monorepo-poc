@@ -1,8 +1,11 @@
 {
   "name": "@vault-developer/ui-form",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/ui-form.js",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@vault-developer/ui-button": "*"
   },
