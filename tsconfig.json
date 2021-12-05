@@ -1,8 +1,17 @@
 {
-  "extends": "@tsconfig/create-react-app/tsconfig.json",
+  "include": ["packages/*/src"],
   "compilerOptions": {
-    "noEmit": false,
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "composite": true,
     "declaration": true,
-    "allowJs": false
+    "declarationMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@vault-developer/*": ["vault-developer/*/src"]
+    }
   }
 }
