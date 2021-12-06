@@ -1,7 +1,7 @@
 {
   "name": "@vault-developer/ui-form",
   "version": "0.0.0",
-  "main": "lib/ui-form.js",
+  "main": "dist/ui-form.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc"

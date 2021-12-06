@@ -1,7 +1,7 @@
 {
   "name": "@vault-developer/ui-button",
   "version": "0.0.0",
-  "main": "lib/ui-button.js",
+  "main": "dist/ui-button.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc"

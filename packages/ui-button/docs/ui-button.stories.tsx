@@ -1,7 +1,6 @@
 import React from 'react';
-// We want to always get from source
-import { Button } from '../lib/ui-button';
+import { Button } from '../src/ui-button';
 
-export default { children: 'Button' };
+export default { children: 'Button',  title: 'Design System/Atoms/Button' };
 
 export const primary = () => <Button>Hello Button</Button>;
