@@ -1,3 +1,9 @@
 import React from 'react';
-const Button = ({ children } : any) => <button style={{background: 'green'}}>{children}</button>;
+import styled from "styled-components";
+
+const SButton = styled.button`
+  color: white;
+`;
+
+const Button = ({ children } : any) => <SButton style={{background: 'red'}}>{children}</SButton>;
 export { Button };
